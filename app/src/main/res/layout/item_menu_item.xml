@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_item_menu_item"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imv_icon"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:padding="7dp"
+            android:src="@drawable/ic_bill" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:textColor="#000"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Đi chợ/siêu thị"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <View
+        android:id="@+id/view_line"
+        android:background="#C7C0C0"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>
